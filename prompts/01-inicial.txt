@@ -1,0 +1,40 @@
+Actúa como un experto desarrollador en Java y JavaFX. Necesito que generes el código fuente para una aplicación de escritorio llamada "Sistema Saludador" en JavaFX, siguiendo los requerimientos y la estructura de proyecto explicados a continuación.
+
+### REQUERIMIENTOS Y FUNCIONALIDAD:
+1. Caso de Uso Principal: "Solicitar saludo" (que incluye obligatoriamente "Pedir datos").
+2. Flujo de la interacción:
+   - El estudiante hace clic en un botón para solicitar un saludo.
+   - El sistema le solicita ingresar: Nombre, Edad y Hora (en formato AM/PM).
+   - El estudiante ingresa los datos solicitados.
+   - El sistema muestra un saludo personalizado que incluye el nombre del estudiante y menciona su edad.
+
+### ESTRUCTURA DE ARCHIVOS A SEGUIR:
+Genera la implementación de código correspondiente a la siguiente estructura del proyecto:
+
+nombre-del-repositorio/
+├── README.md
+├── docs/
+│   └── reflexion.md
+├── prompts/
+│   └── 01-inicial.txt
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/
+        │       └── sistemasaludador/
+        │           ├── Main.java
+        │           ├── MainController.java
+        │           └── SaludoModel.java
+        └── resources/
+            └── com/
+                └── sistemasaludador/
+                    └── vista-saludo.fxml
+
+### INSTRUCCIONES ADICIONALES:
+- Proporciona el código completo y listo para funcionar de:
+  - Main.java
+  - MainController.java
+  - SaludoModel.java
+  - vista-saludo.fxml
+  - Un archivo pom.xml o configuración básica si es necesario para compilar con Maven/JavaFX.
+- Asegúrate de seguir buenas prácticas de programación en Java y JavaFX.
